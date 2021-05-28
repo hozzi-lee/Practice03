@@ -13,7 +13,7 @@ public class Ex20 {
 
 		int user;
 		int num = (int)(Math.random() * 100) + 1;
-		String YS;
+		String YN;
 
 		while ( num != 0 ) {
 			System.out.print(">>");
@@ -28,10 +28,10 @@ public class Ex20 {
 				System.out.println("맞았습니다");
 				System.out.print("게임을 종료 하시겠습니까?(y/n) >> ");
 				// sc.nextLine();
-				YS = sc.next(); // YS = sc.nextLine();
-				if ( YS.equals("y") ) {
+				YN = sc.next(); // YN = sc.nextLine();
+				if ( YN.equals("y") ) {
 					break;
-				} else if ( YS.equals("n") ) {
+				} else if ( YN.equals("n") ) {
 					continue;
 				}
 
